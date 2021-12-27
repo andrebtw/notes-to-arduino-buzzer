@@ -11,7 +11,7 @@ notes = [
     "C9", "C#9", "D9", "D#9", "E9", "F9", "F#9", "G9", "G#9", "A9", "A#9", "B9"
 ]
 
+note = "A4"
 
-
-freq = 440*((1.059463)**(-57+notes.index("A4")))
+freq = 440*((1.059463)**(-57+notes.index(note)))
 print(freq)
